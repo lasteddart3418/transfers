@@ -45,7 +45,7 @@ DEPS_DATA = {
         "send_message_to_user": True
     },
 }
-class sav(commands.Cog, name="HOS Main Commands"):
+class sav(commands.Cog, name="Sav Main Commands"):
     def __init__(self, bot):
         self.bot = bot
         
