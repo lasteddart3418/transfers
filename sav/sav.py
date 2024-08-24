@@ -6,7 +6,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-options_menu="You have provided invalid dept code.\n\n`perks` - Perks Threads\n`giveaway ` - Giveaway Threads\n`scammer` - Scammer Report Threads\n`application` - Staff Application Threads\n`partnership`- Partnership Threads\n"
+options_menu="You have provided invalid dept code.\n\n`perks` - Perks Threads\n`giveaway ` - Giveaway Threads\n`scammer` - Scammer Report Threads\n`application` - Staff Application Threads\n`partnership`- Partnership Threads\n`owner` - Owner Threads\n"
 
 DEPS_DATA = {
     "perks": {
@@ -42,6 +42,13 @@ DEPS_DATA = {
         "pretty_name": "Partnership Threads",
         "reminders": "None",
         "role_id": 1222579912615919666,
+        "send_message_to_user": True
+    },
+        "owner": {
+        "category_id": 1276955415824961567 ,
+        "pretty_name": "Owner Threads",
+        "reminders": "None",
+        "role_id": 1276957128908865546,
         "send_message_to_user": True
     },
 }
