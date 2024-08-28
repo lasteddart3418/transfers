@@ -12,8 +12,7 @@ DEPS_DATA = {
         "mod": {
         "category_id": 1240756946110382221 ,
         "pretty_name": "Moderation Team",
-        "reminders": "1. When reporting a member, please make sure to provide valid proof.
-        2. Please make sure you check the report to ensure it breaks the rules before sending it.",
+        "reminders": "When reporting a member, please make sure to provide valid proof. Please make sure you check the report to ensure it breaks the rules before sending it.",
         "role_id": 1240758729213870190,
         "send_message_to_user": True
     },
