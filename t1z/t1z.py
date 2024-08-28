@@ -12,15 +12,14 @@ DEPS_DATA = {
         "mod": {
         "category_id": 1240756946110382221 ,
         "pretty_name": "Moderation Team",
-        "reminders": "When reporting a member, please make sure to provide valid proof. Please make sure you check the report to ensure it breaks the rules before sending it.",
+        "reminders": "When reporting a member, please make sure to provide valid proof. Please also make sure you check the report to ensure it breaks the rules before sending it.",
         "role_id": 1240758729213870190,
         "send_message_to_user": True
     },
         "pt": {
         "category_id": 1240756965307715604 ,
         "pretty_name": "Partnership Team",
-        "reminders": "1. Please have your advertisement ready to send.
-		2. Please make sure you meet our requirements.",
+        "reminders": "1. Please have your advertisement ready to send and ensure you meet our requirements.",
         "role_id": 1240758976509907065,
         "send_message_to_user": True
     },
@@ -34,24 +33,21 @@ DEPS_DATA = {
         "tl": {
         "category_id": 1240757008567631922 ,
         "pretty_name": "Team Leaders",
-        "reminders": "1. If you're looking to appeal an adwarn, please make sure you show a screenshot of the warning.
-		2. Please make sure to provide a reason and counter proof for the appeal (such as your ad).",
+        "reminders": "If you're looking to appeal an adwarn, please make sure you show a screenshot of the warning. Please also make sure to provide a reason and counter proof for the appeal (such as your ad).",
         "role_id": 1240758458383597670,
         "send_message_to_user": True
     },
         "hr": {
         "category_id": 1240757032156401705 ,
         "pretty_name": "Human Resources Team",
-        "reminders": " 1. If you're looking to report a staff member, please make sure to provide proof against this staff member.
-		2. Please make sure to check your report to ensure it breaks the rules before sending it.",
+        "reminders": "If you're looking to report a staff member, please make sure to provide proof against this staff member. Please also make sure to check your report to ensure it breaks the rules before sending it.",
         "role_id": 1240758274962358516,
         "send_message_to_user": True
     },
         "management": {
         "category_id": 1240757048891670559 ,
         "pretty_name": "Management Team",
-        "reminders": "1. If you're looking to Affiliate with us, please make sure to copy a __Permanent__ invite and post it into your Affiliation channel.
-		2. Please make sure the invite is permanent before sending your invite.",
+        "reminders": "If you're looking to Affiliate with us, please make sure to copy a __Permanent__ invite and post it into your Affiliation channel. Please also make sure the invite is permanent before sending your invite.",
         "role_id": 1240758110264623146,
         "send_message_to_user": True
     },
