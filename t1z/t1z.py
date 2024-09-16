@@ -6,7 +6,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt ` - Partnership Team\n`growth` - Growth Team\n`events` - Events Team\n`tl` - Team Leaders\n`hr`- Human Resources Team\n`management` - Management Team\n`exec` - Executive Team\n"
+options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt ` - Partnership Team\n`growth` - Growth Team\n`events` - Events Team\n`hr`- Human Resources Team\n`tm` - Team Managers\n`exec` - Executive Team\n"
 
 DEPS_DATA = {
         "mod": {
@@ -37,13 +37,6 @@ DEPS_DATA = {
         "role_id": 1280006400659165306,
         "send_message_to_user": True
     },
-        "tl": {
-        "category_id": 1240757008567631922 ,
-        "pretty_name": "Team Leaders",
-        "reminders": "If you're looking to appeal an adwarn, please make sure you show a screenshot of the warning. Please also make sure to provide a reason and counter proof for the appeal (such as your ad).",
-        "role_id": 1240758458383597670,
-        "send_message_to_user": True
-    },
         "hr": {
         "category_id": 1240757032156401705 ,
         "pretty_name": "Human Resources Team",
@@ -51,10 +44,10 @@ DEPS_DATA = {
         "role_id": 1240758274962358516,
         "send_message_to_user": True
     },
-        "management": {
+        "tm": {
         "category_id": 1240757048891670559 ,
-        "pretty_name": "Management Team",
-        "reminders": "If you're looking to Affiliate with us, please make sure to copy a __Permanent__ invite and post it into your Affiliation channel. Please also make sure the invite is permanent before sending your invite.",
+        "pretty_name": "Team Managers",
+        "reminders": "If you're looking to Affiliate with us, please make sure to copy a __Permanent__ invite and post it into your Affiliation channel. Please also make sure the invite is permanent before sending your invite, and if looking to claim booster perks, please state which perks you would like to claim.",
         "role_id": 1240758110264623146,
         "send_message_to_user": True
     },
