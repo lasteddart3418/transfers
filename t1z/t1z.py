@@ -47,7 +47,7 @@ DEPS_DATA = {
         "tm": {
         "category_id": 1240757048891670559 ,
         "pretty_name": "Team Managers",
-        "reminders": "If you're looking to Affiliate with us, please make sure to copy a __Permanent__ invite and post it into your Affiliation channel. Please also make sure the invite is permanent before sending your invite, and if looking to claim booster perks, please state which perks you would like to claim.",
+        "reminders": "If you're looking to Affiliate with us, please make sure to copy a __Permanent__ invite and post it into your Affiliation channel. Please also make sure the invite is permanent before sending your invite. If looking to claim booster perks, please state which perks you would like to claim.",
         "role_id": 1240758110264623146,
         "send_message_to_user": True
     },
