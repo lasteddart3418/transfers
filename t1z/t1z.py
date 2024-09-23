@@ -10,52 +10,52 @@ options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`
 
 DEPS_DATA = {
         "mod": {
-        "category_id": 1240756946110382221 ,
+        "category_id": 1286879335348965457 ,
         "pretty_name": "Moderation Team",
         "reminders": "When reporting a member, please make sure to provide valid proof. Please also make sure you check the report to ensure it breaks the rules before sending it.",
-        "role_id": 1240758729213870190,
+        "role_id": 1286882211072835594,
         "send_message_to_user": True
     },
         "pt": {
-        "category_id": 1240756965307715604 ,
+        "category_id": 1286879382119518218 ,
         "pretty_name": "Partnership Team",
-        "reminders": "1. Please have your advertisement ready to send and ensure you meet our requirements.",
-        "role_id": 1240758976509907065,
+        "reminders": "Please have your advertisement ready to send and ensure you meet our requirements.",
+        "role_id": 1286882463271878656,
         "send_message_to_user": True
     },
         "growth": {
-        "category_id": 1240756983980752917 ,
+        "category_id": 1286879517864099840 ,
         "pretty_name": "Growth Team",
         "reminders": "None",
-        "role_id": 1240761316973482129,
+        "role_id": 1286882681115901995,
         "send_message_to_user": True
     },
         "events": {
-        "category_id": 1280006495462887454 ,
+        "category_id": 1286879984316579840 ,
         "pretty_name": "Events Team",
         "reminders": "None",
-        "role_id": 1280006400659165306,
+        "role_id": 1286882898527649883,
         "send_message_to_user": True
     },
         "hr": {
-        "category_id": 1240757032156401705 ,
+        "category_id": 1286880031301177344 ,
         "pretty_name": "Human Resources Team",
         "reminders": "If you're looking to report a staff member, please make sure to provide proof against this staff member. Please also make sure to check your report to ensure it breaks the rules before sending it.",
-        "role_id": 1240758274962358516,
+        "role_id": 1286882045380792350,
         "send_message_to_user": True
     },
         "tm": {
-        "category_id": 1240757048891670559 ,
+        "category_id": 1286880070501142612 ,
         "pretty_name": "Team Managers",
         "reminders": "If you're looking to Affiliate with us, please make sure to copy a __Permanent__ invite and post it into your Affiliation channel. Please also make sure the invite is permanent before sending your invite. If looking to claim booster perks, please state which perks you would like to claim.",
-        "role_id": 1240758110264623146,
+        "role_id": 1286880070501142612,
         "send_message_to_user": True
     },
         "exec": {
-        "category_id": 1240757072644018308 ,
+        "category_id": 1286880128659488799 ,
         "pretty_name": "Executive Team",
         "reminders": "None",
-        "role_id": 1240757896330084473,
+        "role_id": 1286881362183192617,
         "send_message_to_user": True
     },
 }
