@@ -23,7 +23,7 @@ DEPS_DATA = {
         "role_id": 1286882463271878656,
         "send_message_to_user": True
     },
-        "growth": {
+        "marketing": {
         "category_id": 1286879517864099840 ,
         "pretty_name": "Marketing Team",
         "reminders": "Please join our [Promotions Server](https://discord.gg/D3NjzXn3) to learn more about our paid services. If you have any particular questions, a Marketing Team member will be happy to assist you! ",
