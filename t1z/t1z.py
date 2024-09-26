@@ -6,7 +6,7 @@ from discord.ext import commands
 from core import checks
 from core.models import PermissionLevel
 
-options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt ` - Partnership Team\n`growth` - Growth Team\n`events` - Events Team\n`hr`- Human Resources Team\n`tm` - Team Managers\n`exec` - Executive Team\n"
+options_menu="You have provided invalid dept code.\n\n`mod` - Moderation Team\n`pt ` - Partnership Team\n`marketing` - Marketing Team\n`events` - Events Team\n`hr`- Human Resources Team\n`tm` - Team Managers\n`exec` - Executive Team\n"
 
 DEPS_DATA = {
         "mod": {
@@ -25,8 +25,8 @@ DEPS_DATA = {
     },
         "growth": {
         "category_id": 1286879517864099840 ,
-        "pretty_name": "Growth Team",
-        "reminders": "None",
+        "pretty_name": "Marketing Team",
+        "reminders": "Please join our [Promotions Server](https://discord.gg/D3NjzXn3) to learn more about our paid services. If you have any particular questions, a Marketing Team member will be happy to assist you! ",
         "role_id": 1286882681115901995,
         "send_message_to_user": True
     },
