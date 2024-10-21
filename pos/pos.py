@@ -35,7 +35,7 @@ class pos(commands.Cog, name="pos"):
     def __init__(self, bot):
         self.bot = bot
 
- @commands.command()
+    @commands.command()
     @checks.thread_only()
     @checks.has_permissions(PermissionLevel.SUPPORTER)
     async def transfer(self, ctx, *, to: str=None):
