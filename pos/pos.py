@@ -29,6 +29,7 @@ DEPS_DATA = {
         "reminders": "None",
         "role_id": 1269698132820758582,
         "send_message_to_user": True
+   },
 }
 class pos(commands.Cog, name="pos"):
     def __init__(self, bot):
