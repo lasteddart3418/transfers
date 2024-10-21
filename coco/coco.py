@@ -39,7 +39,7 @@ DEPS_DATA = {
     },
 
 }
-class coco(commands.Cog, name="Coco Main Commands"):
+class coco(commands.Cog, name="coco"):
     def __init__(self, bot):
         self.bot = bot
         
@@ -111,4 +111,4 @@ class coco(commands.Cog, name="Coco Main Commands"):
         await ctx.send(ctx.thread.id)
 
 async def setup(bot):
-    await bot.add_cog(Coco(bot))
+    await bot.add_cog(coco(bot))
