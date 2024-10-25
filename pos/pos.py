@@ -11,7 +11,7 @@ options_menu="You have provided invalid dept code.\n\n`general` - General Suppor
 DEPS_DATA = {
     "general": {
         "category_id": 1297495563390160919 ,
-        "pretty_name": "General Support Department,",
+        "pretty_name": "General Support Department",
         "reminders": "None",
         "role_id": 1249750181243519097,
         "send_message_to_user": True
