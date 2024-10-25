@@ -20,7 +20,7 @@ DEPS_DATA = {
         "category_id": 1297567285493633115 ,
         "pretty_name": "PR Support",
         "reminders": "None",
-        "role_id": 1297394123762040932,
+        "role_id": 1269697972535562300,
         "send_message_to_user": True
     },
     "pos": {
