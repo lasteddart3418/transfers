@@ -58,7 +58,7 @@ class pos(commands.Cog, name="pos"):
             mes = "You have now been transferred to the **`"
             mes += data["pretty_name"]
             mes += "`**.\n"
-            mes += "Please explain your __inquiries/problems__ in detail for faster support. \n"
+            mes += "Please explain your __inquiries/problems__ in detail for faster support. \n\n"
             mes += "You will be transferred to another department if deemed necessary.\n\n"
             
             if data["reminders"] is not None:
