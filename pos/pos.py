@@ -11,21 +11,21 @@ options_menu="You have provided invalid dept code.\n\n`general` - General Suppor
 DEPS_DATA = {
     "general": {
         "category_id": 1297495563390160919 ,
-        "pretty_name": "General Support,",
+        "pretty_name": "General Support Department,",
         "reminders": "None",
         "role_id": 1249750181243519097,
         "send_message_to_user": True
     },
     "pr": {
         "category_id": 1297567285493633115 ,
-        "pretty_name": "PR Support",
+        "pretty_name": "PR Support Department",
         "reminders": "None",
         "role_id": 1269697972535562300,
         "send_message_to_user": True
     },
     "pos": {
         "category_id": 1297567756320772157 ,
-        "pretty_name": "AdvancePOS Support",
+        "pretty_name": "AdvancePOS Support Department",
         "reminders": "None",
         "role_id": 1269698132820758582,
         "send_message_to_user": True
@@ -57,7 +57,6 @@ class pos(commands.Cog, name="pos"):
         if data["send_message_to_user"]:
             mes = "You have now been transferred to the **`"
             mes += data["pretty_name"]
-            mes += " department"
             mes += "`**.\n"
             mes += "Please explain your __inquiries/problems__ in detail for faster support. \n"
             mes += "You will be transferred to another department if deemed necessary.\n\n"
