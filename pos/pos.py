@@ -57,7 +57,7 @@ class pos(commands.Cog, name="pos"):
         if data["send_message_to_user"]:
             mes = "You have now been transferred to the **`"
             mes += data["pretty_name"]
-            mes += "department"
+            mes += " department"
             mes += "`**.\n"
             mes += "Please explain your __inquiries/problems__ in detail for faster support. \n"
             mes += "You will be transferred to another department if deemed necessary.\n\n"
